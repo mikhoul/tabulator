@@ -1,22 +1,24 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
   "manifest_version": 2,
 
-  "name": "Tabulator",
-  "author": "Ammar Khaku",
-  "version": "1.1.0",
-  "description": "Manage your open tabs from the new tab page",
-  "icons": {
-    "128": "images/icon-128.png"
+  "name": "Tabulator Mikhoul Fork",
+  "author": "Mkhoul based on Ammar Khaku work",
+  "version": "1.0.2",
+  "description": "Help to manage your open tabs",
+  "browser_action": {
+            "default_icon": "images/icon-128.png"
+        },
+ 
+   "background": {
+    "scripts": ["bundles/background.js","showHTML.js"],
+	"persistent": true
   },
-
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
-  },
-
-  "background": {
-    "scripts": ["bundles/background.js"],
-    "persistent": true
-  },
+  
+   "icons": {
+            "128": "images/icon-128.png"
+        },
 
   "permissions": [
     "tabs",
