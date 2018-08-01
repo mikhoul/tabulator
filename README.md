@@ -1,5 +1,14 @@
-# Tabulator
-A tab management plugin [gettabulator.com](https://gettabulator.com)
+# Tabulator Fork by Mikhoul
+
+A tab management plugin based on [gettabulator.com](https://gettabulator.com)
+
+This fork will be optimized visually for user like me that use "The Great Discarder" extension (any other extension that use the discard function) and over 100 tabs in a single window so things will be more compact.
+
+The problem is that when a tab is "discarded" there is no way to take a screenshot of those tabs so you end with a lot of empty white squares in Tabulator extension and it's really annoying. Here's the URL for this issue I've opened with Chromium: https://bugs.chromium.org/p/chromium/issues/detail?id=852239
+
+Also this fork will **NOT** use the Newtab page to manage your tabs but will use the button on the toolbar instead.
+
+I will also add the internal Chrome pages to the interface since I use them a lot.
 
 ## Current features
 Tabulator overrides your new tab page with its own page. On this page, you can
