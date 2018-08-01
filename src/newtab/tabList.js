@@ -26,7 +26,7 @@ export default function TabList({clickCallback, closeCallback, onSortEndCallback
   return (
     <Container
       axis="xy"
-      pressDelay={200}
+      pressDelay={100}
       tabDisplays={tbs}
       onSortEnd={onSortEndCallback}
     />
